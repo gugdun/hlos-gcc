@@ -1137,6 +1137,7 @@ i[34567]86-*-hlos*)
     tm_file="${tm_file} i386/unix.h i386/att.h elfos.h glibc-stdint.h i386/i386elf.h hlos.h"
     ;;
 x86_64-*-hlos*)
+	tmake_file="${tmake_file} i386/t-x86_64-hlos"
     tm_file="${tm_file} i386/unix.h i386/att.h elfos.h glibc-stdint.h i386/i386elf.h i386/x86-64.h hlos.h"
     ;;
 aarch64*-*-elf | aarch64*-*-fuchsia* | aarch64*-*-rtems*)
